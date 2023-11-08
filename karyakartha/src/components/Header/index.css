@@ -1,0 +1,80 @@
+.header-desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.379);
+    color: #333; 
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:70px;
+  }
+
+  .header-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.379);
+    color: #333; 
+    padding-top:10px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:20px;
+  }
+
+  @media (min-width:767px){
+    .header-mobile{
+        display: none;
+    }
+  }
+
+  .RiMenu3Fill{
+    height:25px;
+    width:25px;
+  }
+  
+  .logo_image{
+    width:200px;
+    height:50px;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+  }
+  
+  .login-text {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+  }
+  
+  .login-text a {
+    color:blue;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  
+  /* Responsive Styling */
+@media (max-width:767px) {
+    .header-desktop{
+        display: none;
+    }
+
+    .logo_image{
+      width:150px;
+      height:40px;
+    }
+}
+
+@media (min-width:767px){
+    .header-mobile{
+        display: none;
+}
+}
